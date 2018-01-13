@@ -18,6 +18,10 @@ function inc(n) {
   n=n+1;
   return n;
 }
+function inc(n) {
+  n=n-1;
+  return n;
+}
 console.log(add(1,2));
 console.log(subtract(3,1));
 console.log(multiply(2,2));
