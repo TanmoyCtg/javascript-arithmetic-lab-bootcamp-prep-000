@@ -22,6 +22,14 @@ function inc(n) {
   n=n-1;
   return n;
 }
+function makeInt(n) {
+  
+  return parseInt(n,10);
+  
+}
+function preserveDecimal(n) {
+  return parseFloat(n);
+}
 console.log(add(1,2));
 console.log(subtract(3,1));
 console.log(multiply(2,2));
